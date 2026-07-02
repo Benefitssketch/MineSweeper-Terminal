@@ -1,4 +1,8 @@
-(I created this as a way to improve my programming skills as a general novice to C++)
-
 A cross-compatible recreation of MineSweeper recreated in C++.
-It can be compiled for and functions on Windows, Mac, and Linux.
+
+It's compatible with Mac, Linux, and Windows 10.
+
+
+
+
+== I started this a couple months ago to improve my programming skills as a general novice to C++. After forgetting about it for a while, I finally decided to complete it. ==

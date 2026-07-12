@@ -1,4 +1,4 @@
-A cross-compatible recreation of MineSweeper recreated in C++.
+A cross-compatible recreation of MineSweeper programmed in C++.
 
 It's compatible with Mac, Linux, and Windows 10.
 

@@ -143,7 +143,7 @@ void game_start() {
                 print_ob_board();
                 printf("\nYou Won! Press " ANSI_BOLD"(Enter)" ANSI_RESET_ALL" to play again.");
                 Clear();
-                scanf("%c", permanent_placeholder);
+                scanf("%c", &permanent_placeholder);
                 game_end = true;
                 break;
             }

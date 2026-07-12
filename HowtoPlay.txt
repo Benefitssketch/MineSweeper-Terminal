@@ -1,0 +1,31 @@
+
+-- This program uses the C function 'scanf' to handle text input. This is stupid, but I'm impatient and I want to finish this project. Using scanf comes with the caveat that if an absurdly large input or an invalid character is inserted into a text field it can break the entire program. In the event of erratic or ostensibly unintended behavior, press CTRL+C on your keyboard to interrupt the program. --
+
+This won't be of much help if you don't already understand how to play minesweeper. For an explanation on that, check out: www.minesweepergame.com/strategy/how-to-play-minesweeper.php
+
+Usage guide for this program:
+Based on the game mode you select, something like this should be printed on-screen:
+
+     A|B|C|D|E|F|G|H|I
+
+ 1   * * * * * * * * *
+ 2   * * * * * * * * *
+ 3   * * * * * * * * *
+ 4   * * * * * * * * *
+ 5   * * * * * * * * *
+ 6   * * * * * * * * *
+ 7   * * * * * * * * *
+ 8   * * * * * * * * *
+ 9   * * * * * * * * *
+
+This is the board where the game is played. Just like the classic game your first step is to select a random space to start the game. How does selecting spaces work? I'm glad you asked!
+
+First you'll be prompted to enter a row. You can select from any of the numbers on the left side of the screen (in this case the options are 1-9).
+Afterwards, you'll be prompted to enter a column corresponding to the letters at the top of the screen (in this case A-I).
+
+For your first move this will reveal a number of squares to get the game started.
+
+On subsequent turns, there are three possible actions you can input:
+0 - If you change your mind, this will cancel your selections and set you back to the row selection step.
+1 - Reveal the selected space in classic Minesweeper fashion. But if it's a mine, you lose!
+2 - Place a flag on the selected space.

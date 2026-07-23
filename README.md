@@ -1,6 +1,6 @@
 A cross-compatible recreation of MineSweeper programmed in C++.
 
-It's compatible with MacOS, Linux, and Windows 10.
+Compatible with MacOS, Linux, and Windows 10.
 
 ![Demo preview](Minesweeper-example.gif)
 
